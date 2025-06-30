@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+html{
+    height: 99%;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row ;
+    font-family: "Lexend";
+    background-image: url('../public/background.jpg');
+    color: #574720;
+    height: 100%;
+}
+
+h1{
+    font-size: 50px;
+}
+
+body div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 300px;
+}
+
+form input{
+    text-align: center;
+    font-family: Lexend;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+section{
+    background-color: rgba(233, 233, 233, 0.7);
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+section h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+section a{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
